@@ -1,0 +1,242 @@
+/* preHeader */
+.preHeader{
+    background: #54BCAA;
+    color:#fff;
+    padding: 20px 0px;
+}
+.preHeader p{
+    margin: 0px;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.preHeader p b{
+    font-size: 16px;
+}
+
+.col2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.registerBtn{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #124559;
+border-radius: 3px;
+}
+.registerBtn a{
+    font-size: 20px;
+    flex-grow: 1;
+    color:#fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 15px;
+
+}
+/* hero */
+.hero .wrapper, .preHeader .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col{
+    width: 48%;
+}
+
+.hero{
+    background-color: #9DD7F2;
+    padding-bottom: 0px;
+}
+
+.heroTransition{
+    padding: 0px;
+}
+
+.heroTransitionCopy{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    background-color: #54BCAA;
+}
+
+.heroTransitionCopy h3{
+    color:#fff;
+    font-weight: 400;
+}
+
+h1{
+    color: #fff;
+}
+
+h1 span{
+    color: #124559
+}
+
+.heroSubHead{
+    font-weight: 400;
+    color: #124559;
+}
+/* common heading */
+.commonHeadingContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #124559;
+}
+.commonHeading{
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+.line{
+    width: 30%;
+    height: 2px;
+    background-color: #124559;
+}
+
+.SERVICES .wrapper .commonHeadingContainer .commonHeading{
+    color: #32B8CA;
+}
+
+.whatSetsUsApart .wrapper .commonHeadingContainer .commonHeading{
+    color: #fff;
+}
+.whatSetsUsApart .wrapper .commonHeadingContainer  .line{
+    background-color: #fff;
+}
+
+/* services */
+.SERVICES .wrapper .commonHeadingContainer {
+    margin-bottom: 60px;
+}
+.copyBlock{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    color: #124559;
+}
+
+.copyBlockIcon{
+    width: 100px;
+    margin-right: 50px;
+    min-width: 100px;
+}
+
+.copyBlockText ul li{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.heading{
+    font-size: 24px;
+    margin: 0px 0px 10px 0px;
+}
+.subHeading{
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+
+/* what sets up apart*/
+#adobeServices.common-heading:before, #sec-box .common-heading:before, #sec-box1 .common-heading:before, .common-heading.darkHeadingLine:before, .contactsec:before{
+    background-color: #000;
+}
+.icon {
+    min-height: 113px;
+    display: inline-block;
+}
+.box {
+    text-align: center;
+    margin: 0px;
+    padding: 25px 20px;
+    border: 1px solid transparent;
+    width: 33.33%;
+}
+.box p{
+    color: #124559;
+    line-height: 23px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    margin: 25px 0px 0;
+    font-size: 15px;
+    min-height: 106px;
+}
+.box button {
+    background-color: #124559;
+    width: 191px;
+    height: 46px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.box:hover button {
+    background-color: #124559;
+    color: #fff;
+    -moz-transition: all 3s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.box:hover {
+    background-color: #ACDCF5;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    -moz-transition: all 3s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+/* whatSets us apart */
+.whatSetsUsApart{
+     background-color: #54BCAA;
+}
+
+.whatSetsUsApartTransition{
+    padding: 0px;
+}
+
+/* contact */
+.contactTransition{
+    padding: 0px;
+    background-color: #54BCAA;
+}
+
+/* form */
+.formContainer{
+    margin: 0 auto;
+    width: 100%;
+}
+
+legend{
+    display: none !important;
+}
+
+.contactSection{
+    background-color: #AEDCF4;
+}
+
+.contactsec h2{
+   background-color: #AEDCF4;
+   color: #124559
+} 
+
+.mktoForm textarea[rows="2"] {
+    height: 2.7em !important;
+}
+
+.mktoButtonRow{
+    display: flex;
+}
